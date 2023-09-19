@@ -1,0 +1,47 @@
+/* Reset de estilos para remover margens e preenchimentos padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos para a barra de navegação */
+.navbar {
+    background-color: #808080; /* Cor de fundo da barra */
+    overflow: hidden; /* Evita que os elementos flutuem fora da barra */
+    text-align: center; /* Centralizar horizontalmente */
+    margin-bottom: 20px; /* Margem inferior */
+}
+
+/* Estilos para os links na barra */
+.navbar a {
+    display: inline-block; /* Mostrar os itens na mesma linha */
+    color: white; /* Cor do texto */
+    text-align: center; /* Alinhar o texto no centro */
+    padding: 14px 16px; /* Espaçamento interno */
+    text-decoration: none; /* Remover sublinhado dos links */
+}
+
+/* Estilizar os links quando o mouse passar por cima */
+.navbar a:hover {
+    background-color: #e4000f; /* Cor de fundo ao passar o mouse */
+    color: black; /* Cor do texto ao passar o mouse */
+}
+
+.header {
+    background-color: #808080;
+    text-align: center;
+    font-size: 50px;
+    font-family: fantasy;
+}
+
+.ul {
+    margin: 10px 0px;
+    margin-left: 30px;
+}
+
+.h2 {
+    color: blue;
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
